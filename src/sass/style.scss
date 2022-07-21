@@ -1,0 +1,11 @@
+@import url("./style_test1.css");
+
+.title {
+	&--main {
+		font-size: 14px;
+	}
+}
+
+p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
