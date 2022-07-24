@@ -5,7 +5,7 @@ const del = require('del');
 
 gulp.task('css', function() {
   return gulp
-    .src('src/sass/*.scss')
+    .src('src/sass/style.scss')
     .pipe(sass())
     .pipe(gulp.dest('build/css'))
     .pipe(server.stream());
